@@ -9,7 +9,7 @@ namespace tehtavat1
 
         static void Main(string[] args)
         {
-
+            Console.Write("hello git > ");
             Console.Write("Give point limit > ");
             int number = int.Parse(Console.ReadLine());
             if (number ==0 || number ==1 )
