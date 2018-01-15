@@ -10,8 +10,8 @@ namespace tehtava10
     {
         static void Main(string[] args)
         {
-            int numbers;
-            numbers = new[9];
+            int[] numbers;
+            numbers = new int[9];
             numbers[0] = 1;
             numbers[1] = 2;
             numbers[2] = 33;
@@ -21,6 +21,15 @@ namespace tehtava10
             numbers[6] = 77;
             numbers[7] = 96;
             numbers[8] = 100;
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                Console.Write(numbers[i]); 
+                Console.Write("\n");
+                if (numbers[i] % 2 == 0)
+                {
+                    Console.Write("-HEP\n");
+                }
+            }
         }
     }
 }
