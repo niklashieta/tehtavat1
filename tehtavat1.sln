@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tehtavat1", "tehtavat1\tehtavat1.csproj", "{7EDFD46C-4B60-4F6C-A1B0-BFB9D2B2A42E}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tehtavat4", "tehtavat4\tehtavat4.csproj", "{738A792B-B55C-4510-A21B-01315EAA26A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tehtavat5", "tehtavat5\tehtavat5.csproj", "{0930B817-8260-49D4-8407-AE1345771C2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tehtävät6", "tehtävät6\tehtävät6.csproj", "{240836FE-86D7-4212-A877-C647CAC0AA07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,8 +41,15 @@ Global
 		{0930B817-8260-49D4-8407-AE1345771C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0930B817-8260-49D4-8407-AE1345771C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0930B817-8260-49D4-8407-AE1345771C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{240836FE-86D7-4212-A877-C647CAC0AA07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{240836FE-86D7-4212-A877-C647CAC0AA07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{240836FE-86D7-4212-A877-C647CAC0AA07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{240836FE-86D7-4212-A877-C647CAC0AA07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C242E282-47E8-4F0D-A86C-D8082EEC2BF0}
 	EndGlobalSection
 EndGlobal
